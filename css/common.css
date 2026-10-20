@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(fonts.css);
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h2 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: 'Paperozi';
+}
+
+/* header */
+.header-top-inner {
+    padding: 20px 0;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-inner .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-inner .logo a {
+    font-family: 'MungyeongGamhongApple';
+    color: #B234DB;
+    font-size: 24px;
+}
+
+.header-top-inner .util {
+    flex: 1;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-top-inner .util a {
+    font-size: 14px;
+}
+
+.ico-group {
+    display: flex;
+    gap: 10px;
+}
+
+.ico-group ion-icon {
+    font-size: 20px;
+    color: #c095e0;
+}
+
+/* //header-top-inner */
+header .gnb {
+    border-block: 1px solid #e5e5e5;
+}
+
+header .gnb-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+header .gnb-list li {
+    flex: 1;
+}
+
+header .gnb-list li a {
+    display: block;
+    width: 100%;
+    padding-block: 15px;
+    text-align: center;
+}
+
+header .gnb-list li .on {
+    background: #B234DB;
+    color: #fff;
+}
+
+header .gnb-list li .on:hover {
+    background: #B234DB;
+    color: #fff;
+}
+
+header .gnb-list li a:hover {
+    background: #c095e0;
+    color: #fff;
+}
+/* //header */
+
+/* footer */
+footer {
+    width: 100%;
+    font-family: "Pretendard Variable";
+    background: #555;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 30px;
+    color: #fcfcfc;
+}
+
+footer p:first-child {
+    margin-bottom: 10px;
+}
+/* //foter */

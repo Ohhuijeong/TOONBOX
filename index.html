@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOONBOX</title>
+
+    <link rel="stylesheet" href="css/toonbox.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js" defer> </script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js" defer> </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="js/toonbox.js" defer></script>
+    <script src="js/common.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="inner">
+                <div class="header-top-inner">
+                    <h1 class="logo"><a href="*">TOONBOX</a></h1>
+                    <div class="util">
+                        <a href="#">로그인</a>
+                        <a href="#">회원가입</a>
+                    </div>
+                    <div class="ico-group">
+                        <a href="#"><ion-icon name="heart"></ion-icon><span class="blind">찜한 작품</span></a>
+                        <a href="#"><ion-icon name="bag"></ion-icon><span class="blind">장바구니</span></a>
+                        <a href="#"><ion-icon name="person"></ion-icon><span class="blind">마이페이지</span></a>
+                        <a href="#"><ion-icon name="menu"></ion-icon><span class="blind">메뉴</span></a>
+                    </div>
+                </div>
+
+                <nav class="gnb">
+                    <ul class="gnb-list">
+                        <li><a href="#" class="on">홈</a></li>
+                        <li><a href="#">추천</a></li>
+                        <li><a href="#">신작</a></li>
+                        <li><a href="#">장르</a></li>
+                        <li><a href="#">요일별</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="inner">
+                <h2>지금, <span>TOONBOX</span>에서만!</h2>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide01.jpg" alt="김대리는 아이돌이 싫어"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide02.jpg" alt="화산귀환"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide03.jpg" alt="똑 닮은 딸"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide04.jpg" alt="풍작이에요 마왕님!"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide05.jpg" alt="A.I.닥터"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide06.jpg" alt="나를바꿔줘"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="img/slide07.jpg" alt="몬스터와 힐링하는 S급 헌터"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="readers-pick">
+            <div class="inner">
+                <h2><span>독자's PICK!</span>실시간 인기 웹툰</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/Hive.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    하이브
+                                </p>
+                                <p class="author">
+                                    김규삼
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/대학원탈출일지.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    대학원 탈출일지
+                                </p>
+                                <p class="author">
+                                    요다
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/선얼.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    선천적 얼간이들
+                                </p>
+                                <p class="author">
+                                    가스파드
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/정글고.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    정글고등학교
+                                </p>
+                                <p class="author">
+                                    김규삼
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/용이산다.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    용이 산다
+                                </p>
+                                <p class="author">
+                                    초
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/집이없어.jpg" alt="">
+                            </div>
+                            <div class="text-group">
+                                <p class="title">
+                                    집이 없어
+                                </p>
+                                <p class="author">
+                                    와난
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="today-pick">
+            <div class="inner">
+                <h2>뭘 볼지 고민된다면?</h2>
+                <div class="today-pick-content">
+                    <div class="pic">
+                        <img src="img/Noblesse.jpg" alt="노블레스 웹툰 표지">
+                    </div>
+                    <div class="text-group">
+                        <span>오늘의 웹툰</span>
+                        <p class="title">노블레스</p>
+                        <p class="author">손제호 / 이광수</p>
+                        <p class="text">
+                            820년간의 긴 수면기. 드디어 새로운 세상에 눈을 뜨다.<br>
+                            그리고 새로운 세상의 새로운 사람들을 만나다.
+                        </p>
+                        <div class="hashtag">
+                            <span>#판타지</span>
+                            <span>#먼치킨</span>
+                        </div>
+                        <div class="view-links">
+                            <a href="#">작품 보러가기</a>
+                            <a href="#">작가의 다른 작품 보러가기</a>
+                        </div>
+                    </div>
+
+                    <div class="about-product">
+                        <p>관련 상품</p>
+                        <div class="product01">
+                            <div class="pic">
+                                <a href="https://series.naver.com/novel/detail.series?productNo=58739"><img
+                                        src="img/Nobless_sub02.jpg" alt=""></a>
+                            </div>
+                            <div class="prod-text">
+                                <a href="https://series.naver.com/novel/detail.series?productNo=58739">[웹소설] 노블레스S</a>
+                                구매대여
+                            </div>
+                        </div>
+                        <div class="product02">
+                            <div class="pic">
+                                <a href="https://search.shopping.naver.com/book/catalog/32492052839">
+                                    <img src="img/Nobless_sub03.jpg" alt=""></a>
+                            </div>
+                            <div class="prod-text">
+                                <a href="https://search.shopping.naver.com/book/catalog/32492052839">노블레스 1 손제호 장편소설
+                                </a><br>드림북스
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //today-pick -->
+
+        <section id="genre">
+            <div class="inner">
+                <h2>
+                    <a href="#">인기 웹툰 <span>장르별</span>로 모아보기
+                        <ion-icon name="chevron-forward-outline"></ion-icon></a>
+                </h2>
+                <ul class="genre-list">
+                    <li class="on" data-genre="fantasy"><a href="#">판타지</a></li>
+                    <li data-genre="action"><a href="#">액션</a></li>
+                    <li data-genre="romance"><a href="#">로맨스</a></li>
+                    <li data-genre="thriller"><a href="#">스릴러</a></li>
+                    <li data-genre="drama"><a href="#">드라마</a></li>
+                </ul>
+                <div class="genre-rank show fantasy" data-genre="fantasy">
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_fantasy_01.jpg" alt="전지적 독자시점">
+                            </div>
+                            <span>1</span>
+                            <p class="title">
+                                전지적 독자시점
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_fantasy_02.jpg" alt="나혼자 만렙 뉴비">
+                            </div>
+                            <span>2</span>
+                            <p class="title">
+                                나혼자 만렙 뉴비
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_fantasy_03.jpg" alt="내가 키운 S급들">
+                            </div>
+                            <span>3</span>
+                            <p class="title">
+                                내가 키운 S급들
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_fantasy_04.jpg" alt="운명을 보는 회사원">
+                            </div>
+                            <span>4</span>
+                            <p class="title">
+                                운명을 보는 회사원
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_fantasy_05.jpg" alt="잔불의 기사">
+                            </div>
+                            <span>5</span>
+                            <p class="title">
+                                잔불의 기사
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="genre-rank action" data-genre="action">
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_action_01.jpg" alt="입학용병">
+                            </div>
+                            <span>1</span>
+                            <p class="title">
+                                입학용병
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_action_02.jpg" alt="사채지간">
+                            </div>
+                            <span>2</span>
+                            <p class="title">
+                                사채지간
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_action_03.jpg" alt="약한영웅">
+                            </div>
+                            <span>3</span>
+                            <p class="title">
+                                약한영웅
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_action_04.jpg" alt="일렉시드">
+                            </div>
+                            <span>4</span>
+                            <p class="title">
+                                일렉시드
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_action_05.jpg" alt="김부장">
+                            </div>
+                            <span>5</span>
+                            <p class="title">
+                                김부장
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="genre-rank romance" data-genre="romance">
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_romance_01.jpg" alt="천만청춘">
+                            </div>
+                            <span>1</span>
+                            <p class="title">
+                                천만청춘
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_romance_02.jpg" alt="용한소녀">
+                            </div>
+                            <span>2</span>
+                            <p class="title">
+                                용한소녀
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_romance_03.jpg" alt="작전명순정">
+                            </div>
+                            <span>3</span>
+                            <p class="title">
+                                작전명순정
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_romance_04.jpg" alt="사내연애 사절!">
+                            </div>
+                            <span>4</span>
+                            <p class="title">
+                                사내연애 사절!
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_romance_05.jpg" alt="같은 학교 친구">
+                            </div>
+                            <span>5</span>
+                            <p class="title">
+                                같은 학교 친구
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="genre-rank thriller" data-genre="thriller">
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_thriller_01.jpg" alt="괴담에 떨어져도 출근을 해야 하는구나">
+                            </div>
+                            <span>1</span>
+                            <p class="title">
+                                괴담에 떨어져도 출근을 해야 하는구나
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_thriller_02.jpg" alt="똑 닮은 딸">
+                            </div>
+                            <span>2</span>
+                            <p class="title">
+                                똑 닮은 딸
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_thriller_03.jpg" alt="쪽팔려게임">
+                            </div>
+                            <span>3</span>
+                            <p class="title">
+                                쪽팔려게임
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_thriller_04.jpg" alt="">
+                            </div>
+                            <span>4</span>
+                            <p class="title">
+                                44교시 생존수업
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_thriller_05.jpg" alt="">
+                            </div>
+                            <span>5</span>
+                            <p class="title">
+                                로스트미디어샵 아코드
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="genre-rank drama" data-genre="drama">
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_drama_01.jpg" alt="티라노 노경수">
+                            </div>
+                            <span>1</span>
+                            <p class="title">
+                                티라노 노경수
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_drama_02.jpg" alt="품위증명">
+                            </div>
+                            <span>2</span>
+                            <p class="title">
+                                품위증명
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_drama_03.jpg" alt="여우놀이">
+                            </div>
+                            <span>3</span>
+                            <p class="title">
+                                여우놀이
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_drama_04.jpg" alt="다육이는 잘 자란다">
+                            </div>
+                            <span>4</span>
+                            <p class="title">
+                                다육이는 잘 자란다
+                            </p>
+                        </a>
+                    </div>
+                    <div class="rank">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="img/genre_drama_05.jpg" alt="중증외상센터 : 외과의사 백강혁">
+                            </div>
+                            <span>5</span>
+                            <p class="title">
+                                중증외상센터 : 외과의사 백강혁
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="by-day">
+            <div class="inner">
+                <h2><a href="#"><span>요일별</span> 웹툰
+                <ion-icon name="chevron-forward-outline"></ion-icon></a>
+                </h2>
+                <div class="by-day-toon">
+                    <ul class="mon">
+                        <li>
+                            <a href="#" class="day">월요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/mon01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/mon02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/mon03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="tue">
+                        <li>
+                            <a href="#" class="day">화요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/tue01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/tue02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/tue03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="wed">
+                        <li>
+                            <a href="#" class="day">수요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/wed01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/wed02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/wed03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="thur">
+                        <li>
+                            <a href="#" class="day">목요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/thur01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/thur02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/thur03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="fri">
+                        <li>
+                            <a href="#" class="day">금요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/fri01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/fri02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/fri03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="sat">
+                        <li>
+                            <a href="#" class="day">토요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sat01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sat02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sat03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul class="sun">
+                        <li>
+                            <a href="#" class="day">일요일</a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sun01.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sun02.jpg" alt=""></a>
+                        </li>
+                        <li class="pic">
+                            <a href="#"><img src="img/sun03.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="oppurtunities">
+            <div class="inner">
+                <a href="#" class="contest">
+                    <h3>공모전 개최</h3>
+                    <p>참가 접수하기<ion-icon name="arrow-forward-outline"></ion-icon></p>
+                </a>
+                <a href="#" class="recruit">
+                    <h3>신인 작가 모집</h3>
+                    <p>연재 지원하기<ion-icon name="arrow-forward-outline"></ion-icon></p>
+                </a>
+                <a href="#" class="submit">
+                    <h3>웹툰 투고</h3>
+                    <p>작품 제안하기<ion-icon name="arrow-forward-outline"></ion-icon></p>
+                </a>
+                <a href="#" class="assistant">
+                    <h3>어시스턴트 모집</h3>
+                    <p>지원 신청하기<ion-icon name="arrow-forward-outline"></ion-icon></p>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p class="copyright-notice">
+                TOONBOX에 게재된 웹툰 및 이미지의 저작권은 각 작품의 작가와 권리자에게 있습니다. 콘텐츠의 무단 복제, 배포, 수정 및 상업적 이용을 금지합니다.
+            </p>
+            <p class="copyright">
+                &copy; 2026 TOONBOX. All Rights Reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
