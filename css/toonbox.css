@@ -5,6 +5,7 @@
 #hero {
     margin-bottom: 100px;
 }
+
 #hero .inner {
     padding-top: 50px;
 }
@@ -211,6 +212,7 @@
     vertical-align: middle;
     transform: translateY(-1px);
 }
+
 #genre h2 span {
     color: #B234DB;
 }
@@ -288,7 +290,7 @@
     position: absolute;
     font-size: 50px;
     font-weight: 900;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #fcfcfc;
     color: #111;
     bottom: 0px;
     right: 10px;
@@ -306,6 +308,7 @@
 #genre .genre-rank .rank .title:hover {
     text-decoration: underline;
 }
+
 /* //genre */
 
 #by-day h2 span {
@@ -328,7 +331,7 @@
 }
 
 .by-day-toon ul:hover a {
-    color: #fff;
+    color: #fcfcfc;
 }
 
 .by-day-toon ul li {
@@ -380,13 +383,13 @@
 }
 
 #oppurtunities .inner>a:hover {
-    background: #b134dbbd;
-    color: #fff;
+    background: #C15DE3;
+    color: #fcfcfc;
     top: -5px;
 }
 
 #oppurtunities .inner>a:hover h3 {
-    color: #fff;
+    color: #fcfcfc;
 }
 
 #oppurtunities .inner>a:hover p {
