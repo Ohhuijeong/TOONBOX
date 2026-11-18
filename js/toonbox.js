@@ -11,6 +11,14 @@ var swiper = new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        0: {
+            spaceBetween: 15,
+        },
+        769: {
+            spaceBetween: 30,
+        },
+    },
 });
 
 /* genre filter */
@@ -37,4 +45,12 @@ genreTabs.forEach((tab) => {
             }
         })
     })
-})
+});
+
+const byDayLinks = document.querySelectorAll('#by-day a');
+
+byDayLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+    });
+});

@@ -1,0 +1,297 @@
+@charset "utf-8";
+@import url(common.css);
+
+/* common */
+.inner {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+/* header */
+.header-top-inner {
+    padding: 14px 0;
+}
+
+.header-top-inner .logo a {
+    font-size: 20px;
+}
+
+.header-top-inner .util {
+    padding: 0 12px;
+    gap: 12px;
+}
+
+.header-top-inner .util a {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.ico-group {
+    gap: 8px;
+}
+
+.ico-group ion-icon {
+    font-size: 22px;
+}
+
+header .gnb-list {
+    width: 100%;
+}
+
+header .gnb-list li {
+    flex: 1;
+}
+
+header .gnb-list li a {
+    padding: 13px 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* hero */
+#hero {
+    margin-bottom: 50px;
+}
+
+#hero .inner {
+    padding-top: 35px;
+}
+
+#hero .mySwiper {
+    padding-bottom: 28px;
+}
+
+#hero .swiper .swiper-slide {
+    width: auto;
+    height: auto;
+}
+
+#hero .swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* readers-pick */
+#readers-pick ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 12px;
+}
+
+#readers-pick ul li .pic {
+    height: 170px;
+}
+
+#readers-pick .text-group .title {
+    font-size: 16px;
+}
+
+#readers-pick .text-group .author {
+    font-size: 13px;
+}
+
+/* today-pick */
+#today-pick h2 {
+    margin-bottom: 20px;
+}
+
+#today-pick h2::after {
+    width: 40%;
+}
+
+#today-pick .today-pick-content {
+    height: auto;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.today-pick-content .pic {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+}
+
+.today-pick-content .text-group {
+    padding: 0;
+}
+
+.today-pick-content .text-group>span {
+    font-size: 16px;
+}
+
+.today-pick-content .text-group .title {
+    font-size: 30px;
+}
+
+.today-pick-content .text-group .text {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.today-pick-content .text-group .hashtag {
+    margin: 16px 0 24px;
+}
+
+.today-pick-content .text-group .view-links {
+    flex-direction: row;
+}
+
+.today-pick-content .text-group .view-links a {
+    text-align: center;
+    font-size: 14px;
+}
+
+.today-pick-content .about-product {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 12px;
+}
+
+.today-pick-content .about-product>p {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.today-pick-content .about-product .product01 {
+    margin-bottom: 0;
+}
+
+.today-pick-content .about-product .pic {
+    width: 100%;
+    height: 200px;
+    max-height: none;
+}
+
+.today-pick-content .about-product .prod-text {
+    font-size: 13px;
+}
+
+/* genre */
+#genre ul {
+    overflow-x: auto;
+    margin-bottom: 20px;
+    scrollbar-width: none;
+}
+
+#genre ul::-webkit-scrollbar {
+    display: none;
+}
+
+#genre ul li {
+    flex: 0 0 auto;
+    width: 80px;
+}
+
+#genre ul li a {
+    font-size: 14px;
+}
+
+#genre .genre-rank {
+    gap: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+#genre .genre-rank::-webkit-scrollbar {
+    display: none;
+}
+
+#genre .genre-rank .rank {
+    flex: 0 0 140px;
+    scroll-snap-align: start;
+}
+
+#genre .genre-rank .pic {
+    height: 190px;
+}
+
+#genre .genre-rank .rank span {
+    font-size: 36px;
+    right: 6px;
+}
+
+#genre .genre-rank .rank .title {
+    width: 70%;
+    font-size: 14px;
+}
+
+/* by-day */
+#by-day .by-day-toon {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+#by-day .by-day-toon::-webkit-scrollbar {
+    display: none;
+}
+
+.by-day-toon ul {
+    flex: 0 0 110px;
+}
+
+.by-day-toon .day {
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+/* oppurtunities */
+#oppurtunities .inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#oppurtunities .inner>a {
+    height: 100px;
+    gap: 8px;
+}
+
+#oppurtunities a h3 {
+    font-size: 15px;
+}
+
+#oppurtunities a p {
+    font-size: 13px;
+}
+
+/* footer */
+footer {
+    padding: 24px 16px;
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* 아주 작은 화면 */
+@media (max-width: 480px) {
+    .header-top-inner .util {
+        display: none;
+    }
+
+    .header-top-inner {
+        justify-content: space-between;
+    }
+
+    #genre .genre-rank .rank {
+        flex-basis: 125px;
+    }
+
+    #genre .genre-rank .pic {
+        height: 170px;
+    }
+}
