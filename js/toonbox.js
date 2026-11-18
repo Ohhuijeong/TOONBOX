@@ -47,9 +47,9 @@ genreTabs.forEach((tab) => {
     })
 });
 
-const byDayLinks = document.querySelectorAll('#by-day a');
+const disabledLinks = document.querySelectorAll('#by-day a, #oppurtunities a');
 
-byDayLinks.forEach((link) => {
+disabledLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
     });
