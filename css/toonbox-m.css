@@ -45,7 +45,8 @@ h2 {
 }
 
 header .gnb-list {
-    width: 100%;
+    width: max-content;
+    min-width: 100%;
 }
 
 header .gnb-list li {
